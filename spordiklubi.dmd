@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="spordiklubi" id="C26BDFE0-9DC9-BB3A-D49E-28E870C96C2E" version="3.5">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-16 13:35:43 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C26BDFE0-9DC9-BB3A-D49E-28E870C96C2E</designId>
+</OSDM_Design>
