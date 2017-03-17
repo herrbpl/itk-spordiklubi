@@ -60,8 +60,9 @@
 <createdBy>siim.aus</createdBy>
 <createdTime>2017-03-17 13:40:45 UTC</createdTime>
 <ownerDesignName>spordiklubi</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
