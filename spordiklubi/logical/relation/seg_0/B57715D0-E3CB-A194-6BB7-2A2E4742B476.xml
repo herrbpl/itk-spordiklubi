@@ -7,10 +7,9 @@
 <item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
 </engineerTo>
 <useSurrogateKey>true</useSurrogateKey>
-<sourcePk>37414D6C-FB6C-9011-47A5-0FD45BCFCE4F</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>A7042C9F-3F51-3564-6447-9E0770549D6E</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
