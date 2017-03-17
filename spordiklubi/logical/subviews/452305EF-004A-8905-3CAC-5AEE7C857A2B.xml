@@ -34,9 +34,9 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="883" y="159" width="170" height="110"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="90885CE6-C143-CD78-E86E-567DFDF46CEC" otype="Entity" vid="C9D1DDE0-FD82-176F-0121-F061C3CDB51D">
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="895B199B-EAEE-2A6B-4AF0-59E38AE83468" otype="Entity" vid="18693A83-15E1-8846-34B5-8CCA0075CCF9">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="291" y="321" width="170" height="110"/>
+<bounds x="302" y="163" width="170" height="160"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVLegend" oid="D3F3922A-1605-9D4C-A15A-A9FBC14A238B" otype="Legend" vid="91385B91-58F3-8CBE-557F-8344E1FD3D33">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -52,13 +52,12 @@
 </OView>
 </objectViews>
 <connectors>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="22F91BC7-3FD7-D802-0382-F4EFD195D034" otype="Relation" vid_source="C9D1DDE0-FD82-176F-0121-F061C3CDB51D" vid_target="99898F4F-8F61-2695-5D6F-A213086DF156">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="22F91BC7-3FD7-D802-0382-F4EFD195D034" otype="Relation" vid_source="18693A83-15E1-8846-34B5-8CCA0075CCF9" vid_target="99898F4F-8F61-2695-5D6F-A213086DF156">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="367" y="321"/>
-<point x="367" y="212"/>
-<point x="536" y="212"/>
+<point x="472" y="230"/>
+<point x="536" y="230"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="2BEF238B-4C2C-E3D6-0F64-17FF80A7FDF7" otype="Relation" vid_source="BF85B583-C797-913B-0B1E-7EC4096B7F3F" vid_target="99898F4F-8F61-2695-5D6F-A213086DF156">
@@ -126,10 +125,6 @@
 <point x="621" y="275"/>
 <point x="621" y="321"/>
 </points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVInheritanceRelation" oid="CCD41B9E-C6D1-3F68-A150-A4F9C602114F" otype="Hierarchy relation">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<lineWidth>1</lineWidth>
 </Connector>
 </connectors>
 </Diagram>
