@@ -53,33 +53,5 @@
 <domain>63B651AE-27B9-5D28-F6D5-4F0EDB64C6DA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NIMI" id="75408BE1-D4BF-8F3B-DEC8-E15C15D538D4">
-<createdBy>siim.aus</createdBy>
-<createdTime>2017-03-17 14:12:43 UTC</createdTime>
-<generatorID>2BEF238B-4C2C-E3D6-0F64-17FF80A7FDF7</generatorID>
-<ownerDesignName>spordiklubi</ownerDesignName>
-<engineerTo>
-<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
-</engineerTo>
-<referedAttribute>7A19D416-0149-0DB6-0CF8-D0403128DDC2</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<domain>5FC0FCA0-A9BD-1174-F4D5-B1A8BED63B40</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="KOOD" id="5B673053-DF8C-0412-6CE4-00C31EAE337D">
-<createdBy>siim.aus</createdBy>
-<createdTime>2017-03-17 14:13:29 UTC</createdTime>
-<generatorID>5A7F65C6-4CD0-BEA9-06B9-DEB6E48079DD</generatorID>
-<ownerDesignName>spordiklubi</ownerDesignName>
-<engineerTo>
-<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
-</engineerTo>
-<referedAttribute>7D24D5FB-7808-CBB6-A0C9-1E2BC3C82731</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<domain>94F44753-0FD9-2B54-9AF0-5930DAB702A4</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 </Entity>
