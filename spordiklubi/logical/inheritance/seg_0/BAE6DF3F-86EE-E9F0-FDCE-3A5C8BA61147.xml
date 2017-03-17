@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_6" directorySegmentName="seg_0" id="BAE6DF3F-86EE-E9F0-FDCE-3A5C8BA61147">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 16:45:01 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>87D5D294-D637-2BFA-9505-26D76032F150</sourceEntity>
+<targetEntity>14A7B62A-19C5-0BA6-20E0-5C694CE5098C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
