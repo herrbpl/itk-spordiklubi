@@ -7,8 +7,6 @@
 <item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
 </engineerTo>
 <useSurrogateKey>true</useSurrogateKey>
-<sourcePk>37414D6C-FB6C-9011-47A5-0FD45BCFCE4F</sourcePk>
-<targetPk>CBCF96CA-75A2-82F8-D51D-C757FD7F685F</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
