@@ -16,9 +16,6 @@
 <normalForm>Third</normalForm>
 <preferredAbbreviation>HUVE</preferredAbbreviation>
 <attributeInherType>All atributes</attributeInherType>
-<generateDiscrimColumn>true</generateDiscrimColumn>
-<discriminatorAttributeID>B59CC87C-DA9F-083F-3F7A-2A9B66EA09B5</discriminatorAttributeID>
-<discriminatorColumnName>HYVE_TYYP</discriminatorColumnName>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="NIMI" id="3D1FCBBB-1A30-5A3C-75C1-5D997C927DC6">
@@ -58,18 +55,17 @@
 <domain>4FB01563-999B-64E6-21D6-EDBD23955B9A</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NIMI1" id="B59CC87C-DA9F-083F-3F7A-2A9B66EA09B5">
+<Attribute name="KIRJELDUS" id="95564559-5AD4-05B7-278A-8B751FC300AB">
 <createdBy>siim.aus</createdBy>
-<createdTime>2017-03-17 14:48:56 UTC</createdTime>
-<generatorID>ED1383A7-E033-CEDB-CF7F-AECBAB0B1EED</generatorID>
+<createdTime>2017-03-17 16:25:54 UTC</createdTime>
 <ownerDesignName>spordiklubi</ownerDesignName>
 <engineerTo>
 <item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
 </engineerTo>
-<referedAttribute>4949984D-F6DD-7B0E-25CB-97A7B62AE781</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<domain>5FC0FCA0-A9BD-1174-F4D5-B1A8BED63B40</domain>
+<domain>63B651AE-27B9-5D28-F6D5-4F0EDB64C6DA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -78,8 +74,9 @@
 <createdBy>siim.aus</createdBy>
 <createdTime>2017-03-17 11:54:42 UTC</createdTime>
 <ownerDesignName>spordiklubi</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
