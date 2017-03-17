@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="reseveerib koha" directorySegmentName="seg_0" id="C568F761-E85F-6D54-2472-92FA43F49706">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 16:05:00 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>402471FA-9D2A-631D-23E5-98AFACF48766</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2E25248E-0A9A-BDF0-BB0A-472342F75471</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
