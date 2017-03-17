@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sisaldabv3" directorySegmentName="seg_0" id="F6FB4084-D761-C277-AA8B-97E0AE54388F">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 16:18:14 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3EA1B0C0-DA9A-0355-AE3C-19247C44D197</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>333D6977-D1DD-DBCC-009D-06B72FDFDEF3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
