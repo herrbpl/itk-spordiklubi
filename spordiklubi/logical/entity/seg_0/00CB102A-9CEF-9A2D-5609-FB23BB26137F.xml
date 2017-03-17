@@ -41,42 +41,15 @@
 <domain>63B651AE-27B9-5D28-F6D5-4F0EDB64C6DA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NUMBER" id="16DAE4A7-E522-F280-5E75-8B03F0A45C0E">
-<createdBy>siim.aus</createdBy>
-<createdTime>2017-03-17 13:14:48 UTC</createdTime>
-<generatorID>5EA274C8-DC3C-AF71-74E3-578C1B058410</generatorID>
-<ownerDesignName>spordiklubi</ownerDesignName>
-<engineerTo>
-<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
-</engineerTo>
-<referedAttribute>D3EB9C5C-68E5-0595-A364-729AAE7FAEE0</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<domain>4FD74815-9FE5-EC3A-0D0D-AA52612FFC0E</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NIMI1" id="6985E764-59F5-E360-A3D2-F5CF28C630B6">
-<createdBy>siim.aus</createdBy>
-<createdTime>2017-03-17 13:15:30 UTC</createdTime>
-<generatorID>AEB0A5BF-E22F-77FF-BCE4-ABCE803F4D11</generatorID>
-<ownerDesignName>spordiklubi</ownerDesignName>
-<engineerTo>
-<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
-</engineerTo>
-<referedAttribute>900A5C3A-6227-14FD-58F2-D2448FC180F0</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<domain>5FC0FCA0-A9BD-1174-F4D5-B1A8BED63B40</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3A5F71FB-871B-BEF6-3D0A-373071083CD9" name="TEENUSPAKETT PK">
 <createdBy>siim.aus</createdBy>
 <createdTime>2017-03-17 13:10:37 UTC</createdTime>
 <ownerDesignName>spordiklubi</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
