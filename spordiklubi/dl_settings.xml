@@ -420,7 +420,7 @@
 		</data_types_model_estimates>
 		<relational_model_estimates>
 			<relational_model_0_estimates>
-				<relational_model_name value="Relational_1"/>
+				<relational_model_name value="Physical model"/>
 				<tables value="70"/>
 				<views value="70"/>
 				<foreign_keys value="70"/>
