@@ -6,6 +6,7 @@
 <engineerTo>
 <item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
 </engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
 <sourcePk>8196D3EB-B924-B365-1EAA-1314FD096836</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
