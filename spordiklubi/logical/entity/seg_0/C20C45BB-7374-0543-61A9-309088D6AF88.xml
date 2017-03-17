@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C20C45BB-7374-0543-61A9-309088D6AF88" name="LEPING">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 11:29:17 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUMBER" id="D3EB9C5C-68E5-0595-A364-729AAE7FAEE0">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 11:29:28 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>4FD74815-9FE5-EC3A-0D0D-AA52612FFC0E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KEHTIB ALATES" id="20713DB1-13AB-5343-640D-753BBCA8916C">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 11:31:10 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<domain>5C0044D9-0C9A-B4FF-97AC-A1063186EA56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KEHTIB KUNI" id="7E344B1E-5A04-71BC-FD85-AB9EBA633A2E">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 11:31:32 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<domain>5C0044D9-0C9A-B4FF-97AC-A1063186EA56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CBCF96CA-75A2-82F8-D51D-C757FD7F685F" name="LEPING PK">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 11:29:51 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3EB9C5C-68E5-0595-A364-729AAE7FAEE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

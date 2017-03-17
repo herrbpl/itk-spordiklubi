@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="87D5D294-D637-2BFA-9505-26D76032F150" name="TEENUSRESURSS">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:03:12 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOOD" id="7D24D5FB-7808-CBB6-A0C9-1E2BC3C82731">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:03:24 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>94F44753-0FD9-2B54-9AF0-5930DAB702A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIMI" id="3399B1DF-4D36-7040-1209-21542038E6A9">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:03:30 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>5FC0FCA0-A9BD-1174-F4D5-B1A8BED63B40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STAATUS" id="EB7CEAFC-4BF9-3E5B-7238-9D9AB3CDFEE0">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:03:36 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>795E3930-C1C3-6F49-F44D-A8FEFAF8A29D</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIMI1" id="B96D3D38-4A90-7F74-07C1-B79A276831AB">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:07:34 UTC</createdTime>
+<generatorID>96A3C930-C6D7-D1FC-B32D-5C60DA9B5C66</generatorID>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<referedAttribute>DE086A66-8FCA-81B8-2772-9FEC5FFB37F0</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>5FC0FCA0-A9BD-1174-F4D5-B1A8BED63B40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIMI2" id="C8B652A3-DF39-E627-2277-C39B680156C6">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:07:50 UTC</createdTime>
+<generatorID>4B7BFBEF-1271-60EE-AE32-13BA971F55B5</generatorID>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7A19D416-0149-0DB6-0CF8-D0403128DDC2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>5FC0FCA0-A9BD-1174-F4D5-B1A8BED63B40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KIRJELDUS" id="79DEE2FC-8D0D-3BBB-A3A5-10DAEFE96CBE">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:15:42 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>63B651AE-27B9-5D28-F6D5-4F0EDB64C6DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6EEF47EB-29C5-ABFA-C4FD-DBA994A2D9D2" name="TEENUSRESURSS PK">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:06:52 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7D24D5FB-7808-CBB6-A0C9-1E2BC3C82731</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

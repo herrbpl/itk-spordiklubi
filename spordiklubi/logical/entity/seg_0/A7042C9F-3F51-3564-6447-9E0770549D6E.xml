@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7042C9F-3F51-3564-6447-9E0770549D6E" name="KLIENT">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-16 14:30:02 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EESNIMI" id="6794A768-B591-1400-2353-94F09F8244D7">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 10:57:40 UTC</createdTime>
+<comment>Isiku eesnimi</comment>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>5FC0FCA0-A9BD-1174-F4D5-B1A8BED63B40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERENIMI" id="9FD3CBEF-AC3B-BA26-A971-F0B14CDE6934">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 10:57:58 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>5FC0FCA0-A9BD-1174-F4D5-B1A8BED63B40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISIKUKOOD" id="F7723677-514F-AD9B-81E1-9883E8A28167">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 10:58:05 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>4601BC67-F97A-4707-CE99-50FF983E0FAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOOD_RIIK" id="7A5539C9-EB04-0EAE-6D97-C875AC24F7CD">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 11:13:37 UTC</createdTime>
+<generatorID>74EAE996-2C5D-00DB-DE1E-E579653E3978</generatorID>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6BB36B1A-ED58-A92C-0083-84E9A0A4DBF8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>058EBED3-25A0-1628-E886-BF0AB0D0B397</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37414D6C-FB6C-9011-47A5-0FD45BCFCE4F" name="Key_1">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 11:16:52 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="false"/>
+</engineerTo>
+<newElementsIDs>F7723677-514F-AD9B-81E1-9883E8A28167,74EAE996-2C5D-00DB-DE1E-E579653E3978</newElementsIDs>
+<usedAttributes>
+<attributeRef>F7723677-514F-AD9B-81E1-9883E8A28167</attributeRef>
+<attributeRef>7A5539C9-EB04-0EAE-6D97-C875AC24F7CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

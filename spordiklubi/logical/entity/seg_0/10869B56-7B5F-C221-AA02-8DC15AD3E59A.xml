@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10869B56-7B5F-C221-AA02-8DC15AD3E59A" name="AJAKAVA">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:56:57 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIMI" id="B5E32343-45F7-9B20-85C6-CB7455D78E53">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:57:12 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>5FC0FCA0-A9BD-1174-F4D5-B1A8BED63B40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KIRJELDUS" id="A072FDAE-89E1-E55F-B07B-DCB4043D77B1">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:57:20 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>63B651AE-27B9-5D28-F6D5-4F0EDB64C6DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STAATUS" id="2BADDCE3-1ACC-5D53-193D-59328043390C">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:57:52 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>795E3930-C1C3-6F49-F44D-A8FEFAF8A29D</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76E9E49F-8DEA-3ED3-F67B-2287864877B6" name="AJAKAVA PK">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:57:45 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5E32343-45F7-9B20-85C6-CB7455D78E53</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

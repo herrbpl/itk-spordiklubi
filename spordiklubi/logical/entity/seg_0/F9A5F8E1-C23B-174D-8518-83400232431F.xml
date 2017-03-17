@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9A5F8E1-C23B-174D-8518-83400232431F" name="ASUKOHT">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:25:24 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIMI" id="7A19D416-0149-0DB6-0CF8-D0403128DDC2">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:26:00 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>5FC0FCA0-A9BD-1174-F4D5-B1A8BED63B40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AADRESS" id="74370068-0C4A-9A22-E034-F0ADBE4D71A7">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:27:56 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>CF8C6EFD-5A7C-0851-FE62-5CA78FB27F9D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KIRJELDUS" id="E94BD5B3-7BE3-52C1-36E0-11A7D69FD3BC">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:16:04 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>63B651AE-27B9-5D28-F6D5-4F0EDB64C6DA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98562D44-1B2B-D4A3-5DB5-D0265038CE08" name="ASUKOHT PK">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:30:58 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="false"/>
+</engineerTo>
+<newElementsIDs>7A19D416-0149-0DB6-0CF8-D0403128DDC2</newElementsIDs>
+<usedAttributes>
+<attributeRef>7A19D416-0149-0DB6-0CF8-D0403128DDC2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="765C317F-2C3C-188D-3A28-04DD0184FC76" name="KIIP">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:50:04 UTC</createdTime>
+<comment>Kiip mis antakse välja külastuse algusel või lepingu sõlmimisel ning võetakse ära klubist lahkumisel või liikmelisuse lõppemisel.</comment>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUMBER" id="03A24A5F-53FB-660D-0A48-4196455ED8C6">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:50:16 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>4FD74815-9FE5-EC3A-0D0D-AA52612FFC0E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STAATUS" id="C243D888-157D-3684-F72E-E148B2EE0489">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:50:30 UTC</createdTime>
+<comment>0 - töökorras, 1 - katki</comment>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>795E3930-C1C3-6F49-F44D-A8FEFAF8A29D</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C48844E-3EFC-1D0B-0106-E72E395C495D" name="KIIP PK">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:50:28 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03A24A5F-53FB-660D-0A48-4196455ED8C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

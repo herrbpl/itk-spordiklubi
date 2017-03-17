@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="toimub" directorySegmentName="seg_0" id="2BEF238B-4C2C-E3D6-0F64-17FF80A7FDF7">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:12:43 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<sourcePk>98562D44-1B2B-D4A3-5DB5-D0265038CE08</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F9A5F8E1-C23B-174D-8518-83400232431F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>402471FA-9D2A-631D-23E5-98AFACF48766</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="registreerib" directorySegmentName="seg_0" id="96AAFF9B-0166-DF34-B5F1-1ECE15670AC8">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 14:12:26 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>402471FA-9D2A-631D-23E5-98AFACF48766</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D86813A7-A56D-4F96-47F1-E6259DB5D8D5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EA1B0C0-DA9A-0355-AE3C-19247C44D197" name="ARVE">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:37:38 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUMBER" id="F0DE2E0F-AC99-408B-8859-70EAAD67E2A7">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:37:49 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>4FD74815-9FE5-EC3A-0D0D-AA52612FFC0E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KUUPÄEV" id="50FD50A4-B563-B1DA-A447-58F758E61CC4">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:37:59 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<domain>5C0044D9-0C9A-B4FF-97AC-A1063186EA56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STAATUS" id="5437375C-34FF-2EBB-3810-FE032C0393AF">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:38:08 UTC</createdTime>
+<comment>Arve staatus 0 - avatud, 1 - suletud, 2 - makstud</comment>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>795E3930-C1C3-6F49-F44D-A8FEFAF8A29D</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="600B34C9-7EDB-E8E7-DE38-FC5D1B815BEF" name="ARVE PK">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:40:45 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F0DE2E0F-AC99-408B-8859-70EAAD67E2A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIDocument class="oracle.dbtools.crest.model.businessinfo.BIDocument" name="Doc_1" directorySegmentName="seg_0" id="0C1C15E9-091D-8821-64CF-13448E94B5D8">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:52:00 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+</BIDocument>

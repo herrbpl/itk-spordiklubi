@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42D08D13-CCFC-EB54-0F70-885CAD07B1DB" name="KÜLASTUS">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:32:26 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>KULASTUS</preferredAbbreviation>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ALGUSAEG" id="52CE616F-CAC4-2E02-111C-7B08267F7A1B">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:33:25 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<domain>5C0044D9-0C9A-B4FF-97AC-A1063186EA56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LÕPUAEG" id="B3910EC5-9562-C46D-B2DB-2FE629EEA1F8">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:33:33 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<domain>5C0044D9-0C9A-B4FF-97AC-A1063186EA56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMBER" id="3A027916-92B2-8F14-BEC5-8C25DD22E0D0">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:46:53 UTC</createdTime>
+<generatorID>E0DE468F-B69A-C28C-9C64-2DF050524FFD</generatorID>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<referedAttribute>9D11520E-AC63-3F20-3AD4-8B561F5B244B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>4FD74815-9FE5-EC3A-0D0D-AA52612FFC0E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMBER1" id="5436E4F0-2051-7DF1-2247-F5E4A85C2A27">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:52:55 UTC</createdTime>
+<generatorID>BB1E1AC4-D214-A82F-FE04-837B1FA53265</generatorID>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<referedAttribute>03A24A5F-53FB-660D-0A48-4196455ED8C6</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>4FD74815-9FE5-EC3A-0D0D-AA52612FFC0E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7AFCB987-3C65-DE25-E722-B500E2D27321" name="RIIDEKAPP">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:44:12 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUMBER" id="9D11520E-AC63-3F20-3AD4-8B561F5B244B">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:44:25 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>4FD74815-9FE5-EC3A-0D0D-AA52612FFC0E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STAATUS" id="5CE19ED5-79C6-B795-9D62-43627C663BCD">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:44:57 UTC</createdTime>
+<comment>0 - vaba, 1 - broneeritud, 2 - hõivatud, 3 - remondis</comment>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>795E3930-C1C3-6F49-F44D-A8FEFAF8A29D</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIMI" id="F4277BBC-E624-ABA9-C12A-72A6D7577EB2">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:47:51 UTC</createdTime>
+<generatorID>E6A8BD92-8404-074A-D3E0-676661DE0676</generatorID>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<referedAttribute>7A19D416-0149-0DB6-0CF8-D0403128DDC2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>5FC0FCA0-A9BD-1174-F4D5-B1A8BED63B40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8196D3EB-B924-B365-1EAA-1314FD096836" name="RIIDEKAPP PK">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 13:45:58 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D11520E-AC63-3F20-3AD4-8B561F5B244B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
