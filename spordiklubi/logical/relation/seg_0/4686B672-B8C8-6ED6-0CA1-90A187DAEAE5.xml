@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="reserveerib" directorySegmentName="seg_0" id="4686B672-B8C8-6ED6-0CA1-90A187DAEAE5">
+<createdBy>siim.aus</createdBy>
+<createdTime>2017-03-17 16:05:17 UTC</createdTime>
+<ownerDesignName>spordiklubi</ownerDesignName>
+<engineerTo>
+<item key="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<sourcePk>8196D3EB-B924-B365-1EAA-1314FD096836</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7AFCB987-3C65-DE25-E722-B500E2D27321</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2E25248E-0A9A-BDF0-BB0A-472342F75471</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
