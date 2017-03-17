@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="From_LM_Logical - Taksonoomia" id="1F4971FF-1632-2962-2F6F-A2EDE712320F">
+<createdBy>siim.aus</createdBy>
+<modifiedBy>siim.aus</modifiedBy>
+<createdTime>2017-03-17 17:07:53 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>292F4892-D984-B548-D2F6-51A041796AA0</generatorId>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="04F19FCA-E7BD-C0A6-182D-6018DAF39521" otype="Table" vid="3446393A-6DB8-B476-49DE-3D7C914A88EE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="509" y="144" width="174" height="181"/>
+<generatorID>2B42E797-BA84-ACF5-24EB-56A5C15247F3</generatorID>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="04F19FCA-E7BD-C0A6-182D-6018DAF39521" otype="Table" vid="721FC48B-2FAB-850C-4F77-8DE79A17218D" vnum="1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="519" y="220" width="154" height="33"/>
+<generatorID>A85A4978-CB1C-93FD-F872-DBAB246CF702</generatorID>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="76F8820A-6F59-EBBA-8915-6108FF9D5F71" otype="Table" vid="1B146E68-69D1-8F2A-287E-E2DA6BC73A5E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="318" y="144" width="178" height="180"/>
+<generatorID>7147DF3F-0560-D116-76DE-E9FCE60B2C68</generatorID>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="76F8820A-6F59-EBBA-8915-6108FF9D5F71" otype="Table" vid="4E2BE25F-3DAE-AF70-5EC8-34D243A0BA67" vnum="1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="326" y="282" width="150" height="29"/>
+<generatorID>D41A1ABC-19DC-BBDF-1DDC-5AC95D1C3CBD</generatorID>
+</OView>
+</objectViews>
+</Diagram>
