@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" mainViewID="EF587EA5-84D9-A98F-26E6-4F5572824C4C">
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Physical model" id="E3C24B48-9E3E-0D0D-1623-6DB1A80B00ED" mainViewID="EF587EA5-84D9-A98F-26E6-4F5572824C4C">
 <createdBy>siim.aus</createdBy>
 <createdTime>2017-03-16 13:35:43 UTC</createdTime>
 <ownerDesignName>spordiklubi</ownerDesignName>
